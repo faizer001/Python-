@@ -1,0 +1,10 @@
+#letter print using while loop
+letter = 'A'
+while letter <= 'z':
+    print(letter, end=' ')
+    letter = chr(ord(letter) + 1)
+
+#letter print using for loop
+
+for i in range (ord('a'),ord('z')+1):
+   print(chr(i),end = " ")
